@@ -5,7 +5,9 @@ print(x)
 ############################################
 data1= [23, 56, 78, 76, 22, 78]
 y= pd.Series(data1)
+l= pd.Series(data1, index=['a','b','c','d','e','f'])
 z= pd.Series(data1[3])
 print(y)
+print(l)
 print(z)
 
