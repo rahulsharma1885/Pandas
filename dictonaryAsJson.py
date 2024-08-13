@@ -8,4 +8,5 @@ data= {
 result= pd.DataFrame(data)
 # result1= result.iloc[1:, [2]]
 print(result)
+# print(result.info())
 # print(result1)
